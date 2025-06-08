@@ -1,0 +1,37 @@
+body {
+    background-color: #3683ff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+#nameInput {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#shuffleBtn {
+    padding: 10px 20px;
+    background-color: #003aa7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#result {
+    font-size: 24px;
+    margin-top: 20px;
+    color: white;
+}
