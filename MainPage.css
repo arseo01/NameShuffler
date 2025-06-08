@@ -1,0 +1,22 @@
+body {
+    background-color: #3683ff;
+}
+
+#chose {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 50% 0;
+    gap: 10px;
+}
+
+#Pick_one, #Shuffle_all{
+    text-decoration: none;
+    background-color: #003aa7;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 35px;
+    width: 170px;
+    padding-top: 10px;
+}
