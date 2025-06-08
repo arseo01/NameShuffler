@@ -35,3 +35,14 @@ body {
     margin-top: 20px;
     color: white;
 }
+
+#back {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    background: #245cff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #0300ff;
+}

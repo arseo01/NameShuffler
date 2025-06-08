@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #3683ff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+#nameInput {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+#shuffleBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #003aa7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    font-size: 16px;
+    resize: none;
+    background-color: #699dff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#back {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    background: #245cff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #0300ff;
+}
